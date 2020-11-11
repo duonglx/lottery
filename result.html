@@ -29,25 +29,30 @@
         }
         .result-list {
             text-align: center;
-            color: #4de7c8;
-            font-size: 30px;
+            color: #fff;
+            font-size: 24px;
             line-height: 50px;
             margin-top: 50px;
             margin-bottom: 50px;
-            font-family: '幼圆';
+            font-family: "Shinhan-Medium";
         }
         .result-title {
             text-align: center;
-            color: #4de7c8;
+            color: #cf9c51;
             font-size: 40px;
-            margin-top: 100px;
-            font-family: '幼圆';
+            margin-top: 30px;
+            font-family: "Shinhan-Bold";
+            text-transform: uppercase;
         }
 
     </style>
 </head>
 <body>
 <div id="main" class="wall">
+
+    <a class="brand-logo"><img width="200px" src="img/logo-white.svg" /></a>
+
+    
     <div class="result-title">Winner List</div>
     <div class="result-list" v-for="result in results">
         <div v-for="item in result">
