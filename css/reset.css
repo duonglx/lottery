@@ -3,6 +3,30 @@
   cursor: pointer;
 }
 
+@font-face {
+    font-family: "Shinhan-Medium";
+    src: url("./fonts/ShinhanMedium.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/ShinhanMedium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */  url("./fonts/ShinhanMedium.otf") format("opentype"), /* Open Type Font */  url("./fonts/ShinhanMedium.svg") format("svg"), /* Legacy iOS */  url("./fonts/ShinhanMedium.ttf") format("truetype"), /* Safari, Android, iOS */  url("./fonts/ShinhanMedium.woff") format("woff"), /* Modern Browsers */  url("./fonts/ShinhanMedium.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Shinhan-Bold";
+    src: url("./fonts/ShinhanBold.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/ShinhanBold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */  url("./fonts/ShinhanBold.otf") format("opentype"), /* Open Type Font */  url("./fonts/ShinhanBold.svg") format("svg"), /* Legacy iOS */  url("./fonts/ShinhanBold.ttf") format("truetype"), /* Safari, Android, iOS */  url("./fonts/ShinhanBold.woff") format("woff"), /* Modern Browsers */  url("./fonts/ShinhanBold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Shinhan-Light";
+    src: url("./fonts/ShinhanLight.eot"); /* IE9 Compat Modes */
+    src: url("./fonts/ShinhanLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */  url("./fonts/ShinhanLight.otf") format("opentype"), /* Open Type Font */  url("./fonts/ShinhanLight.svg") format("svg"), /* Legacy iOS */  url("./fonts/ShinhanLight.ttf") format("truetype"), /* Safari, Android, iOS */  url("./fonts/ShinhanLight.woff") format("woff"), /* Modern Browsers */  url("./fonts/ShinhanLight.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre,
 form, fieldset, input, textarea, p, blockquote, th, td {
     padding: 0;
@@ -50,8 +74,19 @@ abbr, acronym {
 }
 
 body {
-    font-family: "Hiragino Sans GB","DroidSansFallback","Microsoft YaHei","微软雅黑",arial,simsun;
+  
+    font-family: "Shinhan-Medium";
     color: #333;
     line-height: 22px;
     font-size: 16px;
+}
+
+
+
+
+.brand-logo {
+    position: absolute;
+    left:30px;
+    width: 200px;
+    top: 20px;
 }
